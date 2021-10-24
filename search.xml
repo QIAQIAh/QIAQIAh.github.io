@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Markdown初体验</title>
+      <link href="/2021/10/24/Markdown%E5%88%9D%E4%BD%93%E9%AA%8C/"/>
+      <url>/2021/10/24/Markdown%E5%88%9D%E4%BD%93%E9%AA%8C/</url>
+      
+        <content type="html"><![CDATA[<p>刚开始接触博客，百度得知MarkDwon语言用来写博客会让人上瘾就找了找教程，下为简单总结。（内容简单，只为练习🌹🌹）</p><h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><pre class=" language-java"><code class="language-java"><span class="token comment" spellcheck="true">//```+要用的语言</span></code></pre><h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><pre class=" language-java"><code class="language-java"><span class="token comment" spellcheck="true">//有六个标题级</span><span class="token comment" spellcheck="true">//标题前加# （有空格）</span><span class="token comment" spellcheck="true">//快捷键（ctrl+1/2/..）</span></code></pre><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h1 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h1><pre class=" language-java"><code class="language-java"><span class="token comment" spellcheck="true">//加粗    **文字**</span><span class="token comment" spellcheck="true">//删除线    ~~文字~~</span><span class="token comment" spellcheck="true">//斜体    *文字*</span><span class="token comment" spellcheck="true">//加粗斜体    ***文字***</span></code></pre><p><strong>文字</strong></p><p><del>文字</del></p><p><em>文字</em></p><p><em><strong>文字</strong></em></p><h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><pre class=" language-java"><code class="language-java"><span class="token comment" spellcheck="true">// > 有几个就几级引用</span><span class="token operator">></span>作者QIQI<span class="token operator">>></span>作者QIQI<span class="token operator">>>></span>作者QIQI   </code></pre><blockquote><p>作者QIQI</p><blockquote><p>作者QIQI</p><blockquote><p>作者QIQI</p></blockquote></blockquote></blockquote><h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><pre class=" language-java"><code class="language-java"><span class="token comment" spellcheck="true">//---或***</span></code></pre><hr><hr><h1 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h1><pre class=" language-java"><code class="language-java"><span class="token comment" spellcheck="true">/*本地图huo在线图都可![名称](路径)![](https://img2.baidu.com/it/u=1223919739,1355587914&amp;fm=26&amp;fmt=auto)*/</span></code></pre><p><img src="https://img2.baidu.com/it/u=1223919739,1355587914&fm=26&fmt=auto"></p><h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><pre class=" language-java"><code class="language-java"><span class="token comment" spellcheck="true">/*[名称](路径)[我的Github](https://github.com/QIAQIAh/QIAQIAh.github.io)*/</span></code></pre><p><a href="https://github.com/QIAQIAh/QIAQIAh.github.io">我的Github</a></p><h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><pre class=" language-java"><code class="language-java"><span class="token comment" spellcheck="true">/*无序列表：- 名称有序列表：1.名称- 列表1.列表- 列表*/</span></code></pre><ul><li>列表<br>1.列表</li><li>列表</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>My first blog</title>
       <link href="/2021/10/23/My-first-blog/"/>
       <url>/2021/10/23/My-first-blog/</url>
