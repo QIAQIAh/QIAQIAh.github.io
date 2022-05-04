@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>疫情时代下的城市毛细血管</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!-- 头部的盒子 -->
+    <header>
+      <h1>疫情时代下物流数据可视化</h1>
+      <div class="showTime">
+        <script>
+          var t = null;
+          t = setTimeout(time, 1000); //開始运行
+          function time() {
+            clearTimeout(t); //清除定时器
+            dt = new Date();
+            var y = dt.getFullYear();
+            var mt = dt.getMonth() + 1;
+            var day = dt.getDate();
+            var h = dt.getHours(); //获取时
+            var m = dt.getMinutes(); //获取分
+            var s = dt.getSeconds(); //获取秒
+            document.querySelector(".showTime").innerHTML =
+              "当前时间：" +
+              y +
+              "年" +
+              mt +
+              "月" +
+              day +
+              "日" +
+              h +
+              "时" +
+              m +
+              "分" +
+              s +
+              "秒";
+            t = setTimeout(time, 1000); //设定定时器，循环运行
+          }
+        </script>
+      </div>
+    </header>
+    <!-- 页面主体部分 -->
+    <section class="mainbox">
+      <!-- 左边列 -->
+      <div class="column">
+        <!-- 左一盒子 -->
+        <div class="panel bar">
+          <h2>2018-2022年物流总量及收入</h2>
+          <div class="chart">
+            
+          </div>
+          <div class="panel-footer"></div>
+        </div>
+        <!-- 左二盒子 -->
+        <div class="panel pie">
+          <h2>2018-2022年业务量占比图</h2>
+          <div class="chart">
+            
+          </div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel pie1">
+          <h2>2022年一季度业务量与业务收入占比图</h2>
+          <div class="chart">
+            
+          </div>
+          <div class="panel-footer"></div>
+        </div>
+      </div>
+      <!-- 中间盒子 -->
+      <div class="column">
+        <!-- number模块 -->
+        <div class="no">
+          <div class="no-hd">
+            <ul>
+              <li>2422640.6</li>
+              <li>23928463.1</li>
+            </ul>
+          </div>
+          <div class="no-bd">
+            <ul>
+              <li>业务总量(/万件)</li>
+              <li>业务总收入(/万元)</li>
+            </ul>
+          </div>
+        </div>
+        <!-- 中国地图 -->
+        <div class="map">
+          <!-- 球体 -->
+          <div class="map1">
+
+          </div>
+          <!-- 旋转 -->
+          <div class="map2">
+
+          </div>
+          <!-- 发光的边 -->
+          <div class="map3">
+            
+          </div>
+          <div class="chart">
+
+          </div>
+        </div>
+      </div>
+      <!-- 右边盒子 -->
+      <div class="column">
+        <div class="panel bar3">
+          <h2>全国就业人数</h2>
+          <div class="chart">
+
+          </div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel bar2">
+          <h2>四省快递总量</h2>
+          <div class="chart">
+
+          </div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel line1">
+          <h2>快递相关指数的变化</h2>
+          <div class="chart">
+            
+          </div>
+          <div class="panel-footer"></div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <script src="js/flexible.js"> </script>
+    <script src="js/echarts.min.js"> </script>
+    <script src="js/index.js"></script>
+    <script src="js/china.js"></script>
+  </body>
+</html>
